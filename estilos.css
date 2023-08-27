@@ -1,0 +1,116 @@
+/* Estilos globales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Agrega más estilos aquí */
+/* Estilos para dispositivos pequeños (por ejemplo, teléfonos) */
+@media (max-width: 767px) {
+    /* Reglas de estilo para dispositivos móviles */
+}
+
+/* Estilos para dispositivos medianos (por ejemplo, tabletas) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Reglas de estilo para tabletas */
+}
+
+/* Estilos para dispositivos grandes (por ejemplo, pantallas de escritorio) */
+@media (min-width: 1024px) {
+    /* Reglas de estilo para pantallas de escritorio */
+}
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu-button {
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-item a:hover {
+    color: #ff9800;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    .nav-item {
+        margin: 15px 0;
+    }
+
+    .menu-button {
+        display: block;
+    }
+}
+
+
+
